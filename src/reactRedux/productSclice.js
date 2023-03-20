@@ -3,13 +3,10 @@ import { createSlice } from "@reduxjs/toolkit";
 const productSlice = createSlice({
     name: "products",
     initialState: {
-        babData: {
+        data: {
             value: 0,
             product: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbfCOJU-5uIzZG_9i2_KUMgwdDk96Ddu9fKA&usqp=CAU"
         },
-        bhkchondharData: [
-
-        ]
 
     },
     reducers: {
